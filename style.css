@@ -1,0 +1,103 @@
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Poppins:300,400,500,700");
+@import url('https://fonts.googleapis.com/css2?family=Andika+New+Basic:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Andika+New+Basic&family=Overpass+Mono:wght@300&display=swap');
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
+
+/* ------------------------------------------------------------------------ */
+
+body {
+  text-align: center;
+  align-self: center;
+  align-content: center;
+  background-color: rgb(138, 238, 188);
+}
+
+h1 {
+  color: #fd9559;
+  font-family: 'Andika New Basic', sans-serif;
+}
+
+h2 {
+  color: #fd9559;
+  font-family: 'Andika New Basic', sans-serif;
+}
+
+.container {
+    width: 700px;
+    margin: 40px auto;
+}
+
+.card {
+  font-family: 'Andika New Basic', sans-serif;
+  background-color: white;
+  padding: 40px;
+  box-shadow: 0px 10px 30px rgb(248, 145, 48, 0.5);
+  border-radius: 10px;
+  margin: 20px 0px;
+  text-align: center;
+}
+
+.photo {
+  width: 150px;
+  height: auto;
+  border-radius: 50%;
+}
+
+.rrss {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.rrss a {
+  cursor: pointer;
+}
+
+.rrss li {
+  display: inline;
+  padding: 10px;
+}
+.rrss i {
+  font-size: 50px;
+  color: rgb(248, 145, 48);
+}
+.rrss i:hover {
+  color: rgb(138, 238, 188)
+}
+
+.button {
+  font-family: 'Andika New Basic', sans-serif;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  border-radius: 5px;
+  background-color: rgb(248, 145, 48);
+  width: 100px;
+  height: 25px;
+  box-shadow: 2px 2px 3px #ff5e00;
+  text-decoration: none;
+  padding: 15px;
+  font-size: 15px;
+  display: block;
+  margin: 0 auto;
+  font-weight: 600;
+}
+
+.button:hover {
+  background-color: transparent;
+  color: rgb(248, 145, 48);
+  border: 1px solid black;
+}
