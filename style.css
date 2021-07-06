@@ -64,6 +64,7 @@ h2 {
 }
 
 .rrss a {
+  text-decoration: none;
   cursor: pointer;
 }
 
